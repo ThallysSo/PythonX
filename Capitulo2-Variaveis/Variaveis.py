@@ -1,7 +1,12 @@
-nome = "Thallys"
-empresa = 'Foofle'
-qtde_funcionarios = 500
-mediaMensalidade = 856.50
+nome = input("Digite um funcionário: ")
+empresa = input("Digite a instituição: ")
+quantidade_funcionarios = int(input("Digite a qtde de funcionários: "))
+mediaMensalidade = float(input("Digite a média da mensalidade: "))
 print(nome + " trabalha na empresa " + empresa)
-print("Possui: ", qtde_funcionarios, " funcionarios.")
+print("Possui: ", quantidade_funcionarios, " funcionarios.")
 print("A média da mensalidade é de: " + str(mediaMensalidade))
+print("==============Verifique os tipos de dados abaixo:==============")
+print("O tipo de dado da variavel [nome] é: ", type(nome))
+print("O tipo de dado da variavel [empresa] é: ", type(empresa))
+print("O tipo de dado da variavel [quantidade_funcionarios] é: ", type(quantidade_funcionarios))
+print("O tipo de dado da variavel [mediaMensalidade] é: ", type(mediaMensalidade))
