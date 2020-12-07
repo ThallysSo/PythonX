@@ -52,7 +52,6 @@ def excluir(usuarios, chave):
 
 def listar(usuarios):
     for chave, valor in usuarios.items():
-        print("Usuários......")
         print("Código...........: " + valor[2])
         print("Nome.............: " + valor[0])
         print("Data e Hora......: " + valor[1])
