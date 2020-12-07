@@ -5,3 +5,7 @@
  [ Nome: THALLYS [ Data: 07/12/2020 19:29:17 [ Código: 61]
  [ Nome: THALLYS [ Data: 07/12/2020 19:30:26 [ Código: 47]
  [ Nome: THALLYS [ Data: 07/12/2020 19:41:57 [ Código: 73]
+ [ Nome: LUY [ Data: 07/12/2020 20:19:50 [ Código: 37]
+ [ Nome: THALLYS [ Data: 07/12/2020 20:24:20 [ Código: 93]
+ [ Nome: EDUARDO [ Data: 07/12/2020 20:25:35 [ Código: 48]
+['EDUARDO', '07/12/2020 20:26:13', '61']
