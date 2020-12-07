@@ -1,6 +1,6 @@
 from Capitulo3_Funcoes.IndentificacaoDeFuncoes import *
 
-minhaLista=[]
+minhaLista = []
 print("Preenchendo")
 preencherInventario(minhaLista)
 print("Exibindo")
