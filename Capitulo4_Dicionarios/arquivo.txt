@@ -1,5 +1,7 @@
-
- [ Nome: THALLYS [ Data: 07/12/2020 19:19:39 [ Código: 82]
- [ Nome: LUY [ Data: 07/12/2020 19:19:43 [ Código: 20]
- [ Nome: QUALIRA [ Data: 07/12/2020 19:19:46 [ Código: 18]
- [ Nome: EDUARDO [ Data: 07/12/2020 19:19:49 [ Código: 75]
+ [ Nome: THALLYS [ Data: 07/12/2020 19:19:39 [ Cï¿½digo: 82]
+ [ Nome: LUY [ Data: 07/12/2020 19:19:43 [ Cï¿½digo: 20]
+ [ Nome: QUALIRA [ Data: 07/12/2020 19:19:46 [ Cï¿½digo: 18]
+ [ Nome: EDUARDO [ Data: 07/12/2020 19:19:49 [ Cï¿½digo: 75]
+ [ Nome: THALLYS [ Data: 07/12/2020 19:29:17 [ Código: 61]
+ [ Nome: THALLYS [ Data: 07/12/2020 19:30:26 [ Código: 47]
+ [ Nome: THALLYS [ Data: 07/12/2020 19:41:57 [ Código: 73]

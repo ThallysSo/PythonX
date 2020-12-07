@@ -2,8 +2,6 @@ import datetime
 import random
 
 
-# -- coding: utf-8 --
-
 def perguntar():
     resposta = input("O que deseja realizar? \n "
                      + "<I> - Para Inserir um usuário \n"
@@ -42,12 +40,16 @@ def pesquisar(usuarios, chave):
         print("Nome...........: " + lista[0])
         print("Data...........: " + lista[1])
         print("Código.........: " + lista[2])
+    else:
+        print("Não há dados correspondentes!")
 
 
 def excluir(usuarios, chave):
     if usuarios.get(chave) is not None:
         del usuarios[chave]
-    print("Usuário deletado!")
+        print("Usuário deletado!")
+    else:
+        print("Não há dados correspondentes!")
 
 
 def listar(usuarios):
