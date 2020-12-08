@@ -10,7 +10,7 @@ for chave in range(0, len(tupla)):
     print('Email: ', tupla[chave][1])  # [1] serve para imprimir a posição 1 da tupla
     usuarios[tupla[chave]] = [input('Digite o nome: '), input('Digite o nível: ')]
 
-for chave, dado in usuarios.items():
+for chave, dado in usuarios.items():   # divididos entre 4 chaves
     print("Usuario.:", chave[0])
     print("Email...: ", chave[1])
     print("Nome....: ", dado[0])
