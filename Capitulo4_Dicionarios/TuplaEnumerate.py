@@ -5,7 +5,7 @@ while resp == "S":
     emails.append(input("Digite um e-mail: ").lower())
     resp = input("Digite <S> para continuar: ").upper()
 
-tupla = list(enumerate(emails))
+tupla = list(enumerate(emails))  # list concatena a tupla, enumerate: cria um posição em ordem crescente
 for chave in range(0, len(tupla)):
     print('Email: ', tupla[chave][1])  # [1] serve para imprimir a posição 1 da tupla
     usuarios[tupla[chave]] = [input('Digite o nome: '), input('Digite o nível: ')]
