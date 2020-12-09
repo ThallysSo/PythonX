@@ -1,6 +1,7 @@
 import datetime
 import random
 
+
 def perguntar():
     resposta = input("O que deseja realizar? \n "
                      + "<I> - Para Inserir um usuário \n"
@@ -57,4 +58,3 @@ def listar(usuarios):
         print("Nome.............: " + valor[0])
         print("Data e Hora......: " + valor[1])
         print('==============================')
-
