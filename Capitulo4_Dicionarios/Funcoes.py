@@ -22,12 +22,16 @@ def inserir(usuarios):
 
 
 def inserirArquivo(usuarios):
-    arquivo = open('Arquivo.txt', 'w')  # abrir arquivo
+    arquivo = open('Arquivo.txt', 'r')  # abrir arquivo
+    conteudo = arquivo.readlines()
+
     lista = usuarios.get(codigo)
-    arquivo.write(str(' [ Nome: ' + lista[0] +
-                      ' [ Data: ' + lista[1] +
-                      ' [ Código: ' + lista[2] + ']' +
-                      '\n'))
+    conteudo.append(str(' [ Nome: ' + lista[0] +
+                        ' [ Data: ' + lista[1] +
+                        ' [ Código: ' + lista[2] + ']' +
+                        '\n'))
+    arquivo = open('Arquivo.txt', 'w')
+    arquivo.writelines(conteudo)
     arquivo.close()
 
 
