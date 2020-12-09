@@ -30,6 +30,7 @@ def inserirArquivo(usuarios):
                       '\n'))
     arquivo.close()
 
+
 def pesquisar(usuarios, chave):
     lista = usuarios.get(chave)
     if lista is not None:
