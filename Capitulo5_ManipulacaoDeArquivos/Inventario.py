@@ -8,5 +8,5 @@ while escolha > 0 and escolha < 4:
     elif escolha == 2:
         gravar(inventario)
     elif escolha == 3:
-        exibir()
+        print(exibir())
     escolha = menu()
