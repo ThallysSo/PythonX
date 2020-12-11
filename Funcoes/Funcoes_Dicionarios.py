@@ -22,7 +22,7 @@ def inserir(usuarios):
 
 
 def inserirArquivo(usuarios):
-    arquivo = open('Arquivo.txt', 'r')  # abrir arquivo
+    arquivo = open('../Capitulo4_Dicionarios/arquivo.txt', 'r')  # abrir arquivo
     conteudo = arquivo.readlines()
 
     lista = usuarios.get(codigo)
@@ -30,7 +30,7 @@ def inserirArquivo(usuarios):
                         ' [ Data: ' + lista[1] +
                         ' [ Código: ' + lista[2] + ']' +
                         '\n'))
-    arquivo = open('Arquivo.txt', 'w')
+    arquivo = open('../Capitulo4_Dicionarios/arquivo.txt', 'w')
     arquivo.writelines(conteudo)
     arquivo.close()
 
