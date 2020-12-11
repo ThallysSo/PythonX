@@ -9,13 +9,13 @@ while escolha > 0 and escolha < 4:
             resp = input('Digite <S> para continuar. ').upper()
 
     elif escolha == 2:
-        with open('invetario.csv', 'a') as estoque:
+        with open('inventario.csv', 'a') as estoque:
             for chave, valor in inventario.items():
                 estoque.write(chave + ' ; ' + valor[0] + ' ; ' + valor[1] + ' ; ' + valor[2] + '\n')
                 print('Gravado com sucesso!')
 
     elif escolha == 3:
-        with open('invetario.csv', 'r') as estoque:
+        with open('inventario.csv', 'r') as estoque:
             print(estoque.readlines())
 
     escolha = int(input('Digite: '
