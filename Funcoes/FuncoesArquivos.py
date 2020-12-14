@@ -8,14 +8,16 @@ def menu():
 def registrar(dicionario):
     resp = 'S'
     while resp == 'S':
-        dicionario[input('Digite o número patrimonial: ')] = [input('Digite a data da última atualização: '), input('Digite a descrição: '), input('Digite o departamento: ')]
+        dicionario[input('Digite o número patrimonial: ')] = [input('Digite a data da última atualização: '),
+                                                              input('Digite a descrição: '),
+                                                              input('Digite o departamento: ')]
         resp = input('Digite <S> para continuar. ').upper()
 
 
 def gravar(dicionario):
     with open('inventario.csv', 'a') as estoque:
         for chave, valor in dicionario.items():
-            estoque.write(chave + ' ; ' + valor[0] + ' ; ' + valor[1] + ' ; ' + valor[2] + '\n')
+            estoque.write(chave + ";" + valor[0] + ";" + valor[1] + ";" + valor[2] + "")
     return print('Gravado com sucesso!')
 
 
@@ -23,4 +25,3 @@ def exibir():
     with open('inventario.csv', 'r') as estoque:
         linhas = estoque.readlines()
     return linhas
-
