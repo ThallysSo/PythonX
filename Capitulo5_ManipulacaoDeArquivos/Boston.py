@@ -28,10 +28,10 @@ with open("economic-indicators.csv", "r") as boston:
 
 with open("economic-indicators.csv", "r") as boston:
     maiorMediadeDiaria = 0
-    usuario = int(input('Digite o mês para saber a maior diária de um hotel: '))
+    mes = 0
+    usuario = int(input('Digite o ano para saber a maior diária de um hotel: '))
     for linha in boston.readlines()[1:-1]:
-        if usuario == int(linha.split(',')[1]) and maiorMediadeDiaria < float(linha.split(',')[5]):
+        if usuario == int(linha.split(',')[0]) and maiorMediadeDiaria < float(linha.split(',')[5]):
             maiorMediadeDiaria = float(linha.split(',')[5])
-    print('Maior média é: ', maiorMediadeDiaria)
-
-
+            mes = int(linha.split(',')[1])
+    print('Maior média é: ', mes)
