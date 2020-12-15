@@ -29,3 +29,9 @@
 #
 # for i in range(5):
 #     print(x(10, i))
+
+from random import randint
+
+cod = randint(1, 50)
+print(cod)
+print(cod)
