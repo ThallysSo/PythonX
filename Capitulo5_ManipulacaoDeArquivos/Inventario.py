@@ -10,5 +10,8 @@ while escolha > 0 and escolha < 4:
     elif escolha == 3:
         resultado = exibir()
         for linha in resultado:
-            print(linha)
+            lista = linha.split(";")
+            print("Data.........: ", lista[1])
+            print("Descrição....: ", lista[2])
+            print("Departamento.: ", lista[3])
     escolha = menu()

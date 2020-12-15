@@ -17,7 +17,7 @@ def registrar(dicionario):
 def gravar(dicionario):
     with open('inventario.csv', 'a') as estoque:
         for chave, valor in dicionario.items():
-            estoque.write(chave + ";" + valor[0] + ";" + valor[1] + ";" + valor[2] + "")
+            estoque.write(chave + ";" + valor[0] + ";" + valor[1] + ";" + valor[2] + "\n")
     return print('Gravado com sucesso!')
 
 
