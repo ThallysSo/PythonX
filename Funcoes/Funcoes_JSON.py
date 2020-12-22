@@ -17,7 +17,7 @@ def ler_arquivo(arquivo):
 
 
 def gravar_arquivo(dicionario, arquivo):
-    with open(arquivo, "w") as arq_json:
+    with open(arquivo, "a") as arq_json:
         json.dump(dicionario, arq_json)
 
 
