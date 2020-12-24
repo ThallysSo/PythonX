@@ -1,9 +1,9 @@
 import datetime
 import random
 
-now = datetime.datetime.now()
+data = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 codigo = str((random.randrange(1, 101)))
-data = now.strftime("%d/%m/%Y %H:%M:%S")
+
 
 
 def perguntar():
