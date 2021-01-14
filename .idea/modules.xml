@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CursoEmVideoPython/.idea/CursoEmVideoPython.iml" filepath="$PROJECT_DIR$/../CursoEmVideoPython/.idea/CursoEmVideoPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MeusProjetos/.idea/MeusProjetos.iml" filepath="$PROJECT_DIR$/../MeusProjetos/.idea/MeusProjetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonExe.iml" filepath="$PROJECT_DIR$/.idea/PythonExe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythonTestes/.idea/PythonTestes.iml" filepath="$PROJECT_DIR$/../PythonTestes/.idea/PythonTestes.iml" />
     </modules>
   </component>
 </project>

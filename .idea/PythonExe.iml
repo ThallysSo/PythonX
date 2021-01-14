@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="CursoEmVideoPython" />
+    <orderEntry type="module" module-name="MeusProjetos" />
+    <orderEntry type="module" module-name="CursoEmVideoPython_Teoria" />
   </component>
 </module>
